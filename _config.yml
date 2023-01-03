@@ -18,18 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fleurescence
-email: your-email@example.com
+title: Manol's Blog
+email: manol.tonchev.personal@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Preview and download royalty-free foley & sfx sample packs as well as instrument racks for Ableton Live. Get them all for FREE or pay what you want.
-url: "https://www.fleurescence.net/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  fleurescence
+ Manol's writing experiments and projects
+url: "manol-personal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  manol-personal
 
 sass:
     sass_dir: _sass
 
-include:
-  - _packs
 
 # Exclude from processing.
 # The following items will not be processed, by default.
