@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
-<img class="title-image" src="assets/images/{{page.image}}"/>
-<p>
-    {{page.title}}
-</p>
-<p>
-    {{page.minutes}} minute read
-</p>
-{{content}}
+<div class="post">
+    <div class="title">
+        {{page.title}}
+    </div>
+    <div class="date-thing">
+        <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {{ page.date | date_to_long_string }}
+            </time> / {{page.minutes}} minute read
+    </div>
+    <img class="title-image" src="assets/images/{{page.image}}"/>
+    <div class="content-main">
+        {{content}}
+    </div>
+</div>

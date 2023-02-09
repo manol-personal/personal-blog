@@ -11,6 +11,11 @@ body {
     width: 1000px;
     display: flex;
     flex-direction: column;
+    .page-content{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   a{
@@ -35,6 +40,26 @@ body {
       }
   }
 }
+
+.footer-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 0.3in 0;
+
+  .footer{
+    width: 4in;
+    border-top: 1px solid black;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+  a{
+    font-weight: 600;
+    margin-left: 6px;
+  }
+}
+}
+
 
 .post-list{
   display: flex;
