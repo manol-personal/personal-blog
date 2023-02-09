@@ -6,7 +6,7 @@ description: "manol's writing experiments and projects"
 {% for post in site.posts %}
   <div class="card-post">
     <a href="{{ post.url }}">
-        <img src='/assets/images/{{post.image}}'>
+        <img src='assets/images/{{post.image}}'>
         <div class='footer-card'>
         <div class="title-date">
         <span class='title'>
