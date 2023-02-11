@@ -34,7 +34,7 @@ body {
   padding-top: 0.5in;
   .title{
       font-size: 30px;
-      padding-left: 0.15in;
+      padding-left: 15px;
       .blue{
           color: $blue;
       }
@@ -68,6 +68,8 @@ body {
   padding-top: 1in;
   padding-left: 0.3in;
   padding-right: 0.3in;
+  max-width: 100%;
+
   .card-post{
     border: 1px solid black;
     width: 7in;

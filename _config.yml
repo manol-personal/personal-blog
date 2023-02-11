@@ -25,7 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "manol-personal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manol-personal
 future: true
-baseurl: https://manol-personal.github.io/personal-blog/
 sass:
     sass_dir: _sass
 
