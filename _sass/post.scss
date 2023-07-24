@@ -20,4 +20,51 @@
         max-width: 100%;
         margin-bottom: 15px;
     }
+
+    .quote{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-style: italic;
+        margin-bottom: 16px;
+    }
+
+    .fpointer{
+        font-size: 10px;
+        vertical-align: top;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .image{
+        max-width: 100%;
+    }
+
+    .footnote{
+        margin-bottom: 16px;
+        background-color: rgba(0,0,0,0.1);
+        padding: 0 0 14px 14px;
+        display: none;
+        .header{
+            display: flex;
+            #title{
+                color: blue;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .close-button{
+                margin-left: auto;
+                display: flex;
+                cursor: pointer;
+                img{
+                    height: 22px;
+                    padding: 4px;
+                }
+            }
+        }
+
+        #content{
+            padding-right: 16px;
+        }
+    }
 }
