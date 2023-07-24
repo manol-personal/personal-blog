@@ -14,7 +14,7 @@ description: "manol's writing experiments and projects"
           </span> 
           / 
           <time class="time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
-          {{ post.date | date: "%D" }}
+          {{ post.date | date: "%F" }}
           </time>
         </div>
         <div class='description'>
