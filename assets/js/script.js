@@ -11,7 +11,7 @@ $(document).ready(function () {
             $('#' + target).find('#title').html(title);
             $('#' + target).find('#content').html(content);
             const element = document.getElementById(target);
-            element.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            element.scrollIntoView({ behavior: "smooth", block: "center" });
             $('#' + target).find('#title').click(() => {
                 $('.footnote').hide();
                 const element = document.getElementById(title + 'footnote');
